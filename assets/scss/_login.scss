@@ -1,0 +1,106 @@
+.form-wrapper-login {
+	max-width: 384px;
+	@media (max-width: 599px) {
+		width: 100%;
+	}
+
+	.form__message {
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+}
+
+.form-group-button {
+	@include d-flex();
+	@include justify-content-center();
+	@include flex-wrap();
+
+	.form-button-item {
+		padding: 15px;
+		@media (max-width: 576px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+		}
+	}
+
+}
+
+.form-login {
+	.form-login-button {
+		width: 100%;
+		text-align: center;
+
+		.btn {
+			text-transform: uppercase;
+		}
+	}
+
+}
+
+.form-split {
+	max-width: 40%;
+	margin: 30px auto;
+	position: relative;
+	@include d-flex();
+	@include justify-content-center();
+
+	span {
+		padding: 0 25px;
+		background: white;
+		color: $border-color-bold;
+		text-transform: uppercase;
+
+		&::after {
+			content: "";
+			height: 1px;
+			position: absolute;
+			width: 30px;
+			top: 50%;
+			left: 0;
+			background: $border-color;
+			z-index: 1;
+		}
+
+		&::before {
+			content: "";
+			height: 1px;
+			position: absolute;
+			width: 30px;
+			top: 50%;
+			right: 0;
+			background: $border-color;
+			z-index: 1;
+		}
+	}
+
+}
+
+.form-remember-password {
+	@include d-flex();
+	@include align-items-center();
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	.link-forget-password {
+		margin-left: auto;
+		color: $primary;
+		font-size: 12px;
+		font-weight: 700;
+	}
+
+}
+
+.form-login-link {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.form-login-register {
+	@include d-flex();
+	@include flex-flow-column();
+	@include justify-content-center();
+	@include align-items-center();
+	font-weight: 600;
+	margin-top: 30px;
+}

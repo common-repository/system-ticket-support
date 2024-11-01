@@ -1,0 +1,2211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: System Ticket Support\n"
+"POT-Creation-Date: 2020-03-25 16:31+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: admin/admin.php:13 admin/admin.php:14 admin/admin.php:29
+msgid "Support Setting"
+msgstr ""
+
+#: admin/admin.php:36
+msgid "Basic settings"
+msgstr ""
+
+#: admin/admin.php:39
+msgid "Footer Settings"
+msgstr ""
+
+#: admin/admin.php:43
+msgid "Register Settings"
+msgstr ""
+
+#: admin/templates/edit-menu.php:4
+msgid "Edit menu"
+msgstr ""
+
+#: admin/templates/edit-menu.php:11 admin/templates/new-menu.php:8
+msgid "Title of menu"
+msgstr ""
+
+#: admin/templates/edit-menu.php:19 admin/templates/new-menu.php:15
+msgid "Add title for menu."
+msgstr ""
+
+#: admin/templates/edit-menu.php:25 admin/templates/new-menu.php:21
+msgid "Link of menu"
+msgstr ""
+
+#: admin/templates/edit-menu.php:32 admin/templates/new-menu.php:27
+msgid "Input link for menu."
+msgstr ""
+
+#: admin/templates/edit-menu.php:39 admin/templates/new-menu.php:33
+#: admin/templates/register-setting.php:16
+msgid "Save"
+msgstr ""
+
+#: admin/templates/edit-menu.php:41 admin/templates/footer-setting.php:58
+#: admin/templates/new-menu.php:1
+msgid "Add a new menu"
+msgstr ""
+
+#: admin/templates/edit-menu.php:46
+msgid "No have any menu!"
+msgstr ""
+
+#: admin/templates/footer-setting.php:6
+msgid "Listing of menu"
+msgstr ""
+
+#: admin/templates/footer-setting.php:10
+msgid "Title"
+msgstr ""
+
+#: admin/templates/footer-setting.php:11
+msgid "Link"
+msgstr ""
+
+#: admin/templates/footer-setting.php:23
+#: templates/category/category-item.php:18
+#: templates/customers/customer-item.php:41
+#: templates/endpoints/customer-details.php:60
+#: templates/endpoints/mail-templates.php:42
+#: templates/endpoints/supporters.php:80
+#: templates/template/template-item.php:26
+#: templates/themes/theme-item.php:21
+#: templates/ticket-details/message-action-button.php:29
+#: templates/ticket-details/message-action-button.php:31
+msgid "Edit"
+msgstr ""
+
+#: admin/templates/footer-setting.php:26
+#: templates/category/category-item.php:32
+#: templates/customers/customer-item.php:58
+#: templates/endpoints/customer-details.php:40
+#: templates/endpoints/supporters.php:95
+#: templates/template/template-item.php:38
+#: templates/themes/theme-item.php:35
+#: templates/ticket-details/message-action-button.php:13
+#: templates/ticket-details/message-action-button.php:15
+#: templates/ticket-details/note-item.php:25
+#: templates/users/delete-user.php:11
+msgid "Delete"
+msgstr ""
+
+#: admin/templates/register-setting.php:4
+msgid "Policy content for register"
+msgstr ""
+
+#: admin/templates/register-setting.php:14
+msgid "Add policy content for page register."
+msgstr ""
+
+#: admin/templates/support-setting.php:13
+msgid "Support Page"
+msgstr ""
+
+#: admin/templates/support-setting.php:21
+#, php-format
+msgid "<a href=\"%s\">This link</a> for your support page."
+msgstr ""
+
+#: admin/templates/support-setting.php:26
+msgid "Select an existing page for support panel."
+msgstr ""
+
+#: admin/templates/support-setting.php:32
+msgid "Cron time remove lock reply ticket"
+msgstr ""
+
+#: admin/templates/support-setting.php:39
+msgid ""
+"Input cron time for remove lock reply ticket unit hourly example 2,3."
+msgstr ""
+
+#: admin/templates/support-setting.php:45
+msgid "Cron time close ticket"
+msgstr ""
+
+#: admin/templates/support-setting.php:53
+msgid "Input cron time for close ticket unit daily example 2,3."
+msgstr ""
+
+#: admin/templates/support-setting.php:59
+msgid "Save Changes"
+msgstr ""
+
+#: inc/action.class.php:96 inc/ajax/delete-customer-ajax-action.php:47
+#: inc/filter.class.php:210
+msgid "No customer found!!"
+msgstr ""
+
+#: inc/ajax/category-paginator-ajax-action.php:59
+#: inc/ajax/delete-category-ajax-action.php:42
+#: templates/endpoints/categories.php:58
+msgid "No category found!!"
+msgstr ""
+
+#: inc/ajax/category-paginator-ajax-action.php:64
+#: inc/ajax/customer-details-paginator-ajax-action.php:72
+#: inc/ajax/customer-filter-ajax-action.php:29
+#: inc/ajax/dashboards-filter-ticket-ajax-action.php:39
+#: inc/ajax/get-form-reply-ticket-ajax-action.php:47
+#: inc/ajax/process-cancel-form-reply-ajax-action.php:37
+#: inc/ajax/process-filter-tickets-all-ajax-action.php:64
+#: inc/ajax/process-notification-ajax-action.php:18
+#: inc/ajax/supporter-details-filter-ajax-action.php:66
+#: inc/ajax/unmark-follow-ajax-action.php:54
+#: inc/ajax/unmark-process-ajax-action.php:72
+msgid "You have not permission to do this action"
+msgstr ""
+
+#: inc/ajax/category-paginator-ajax-action.php:67
+#: inc/ajax/change-status-ajax-action.php:14
+#: inc/ajax/change-status-ajax-action.php:24
+#: inc/ajax/change-status-ajax-action.php:108
+#: inc/ajax/change-supporter-ajax-action.php:14
+#: inc/ajax/change-supporter-ajax-action.php:29
+#: inc/ajax/change-supporter-ajax-action.php:65
+#: inc/ajax/customer-details-paginator-ajax-action.php:11
+#: inc/ajax/customer-details-paginator-ajax-action.php:26
+#: inc/ajax/customer-details-paginator-ajax-action.php:75
+#: inc/ajax/customer-filter-ajax-action.php:33
+#: inc/ajax/dashboards-filter-ticket-ajax-action.php:43
+#: inc/ajax/delete-category-ajax-action.php:16
+#: inc/ajax/delete-category-ajax-action.php:26
+#: inc/ajax/delete-category-ajax-action.php:54
+#: inc/ajax/delete-customer-ajax-action.php:14
+#: inc/ajax/delete-message-ajax-action.php:13
+#: inc/ajax/delete-message-ajax-action.php:22
+#: inc/ajax/delete-message-ajax-action.php:32
+#: inc/ajax/delete-message-ajax-action.php:83
+#: inc/ajax/delete-note-ajax-action.php:14
+#: inc/ajax/delete-note-ajax-action.php:32
+#: inc/ajax/delete-supporter-ajax-action.php:15
+#: inc/ajax/delete-supporter-ajax-action.php:45
+#: inc/ajax/delete-template-ajax-action.php:15
+#: inc/ajax/delete-template-ajax-action.php:42
+#: inc/ajax/delete-ticket-ajax-action.php:13
+#: inc/ajax/delete-ticket-ajax-action.php:24
+#: inc/ajax/delete-ticket-ajax-action.php:55
+#: inc/ajax/edit-message-ajax-action.php:14
+#: inc/ajax/edit-message-ajax-action.php:28
+#: inc/ajax/edit-message-ajax-action.php:59
+#: inc/ajax/get-form-reply-ticket-ajax-action.php:12
+#: inc/ajax/get-form-reply-ticket-ajax-action.php:21
+#: inc/ajax/get-form-reply-ticket-ajax-action.php:51
+#: inc/ajax/get-message-ajax-action.php:13
+#: inc/ajax/get-message-ajax-action.php:24
+#: inc/ajax/get-message-ajax-action.php:36
+#: inc/ajax/get-notification-ajax-action.php:49
+#: inc/ajax/get-template-ajax-action.php:12
+#: inc/ajax/get-template-ajax-action.php:38
+#: inc/ajax/lock-category-ajax-action.php:17
+#: inc/ajax/lock-category-ajax-action.php:26
+#: inc/ajax/lock-category-ajax-action.php:55
+#: inc/ajax/lock-template-ajax-action.php:18
+#: inc/ajax/lock-template-ajax-action.php:27
+#: inc/ajax/lock-template-ajax-action.php:56
+#: inc/ajax/lost-password-ajax-action.php:14
+#: inc/ajax/mark-follow-ajax-action.php:16
+#: inc/ajax/mark-follow-ajax-action.php:27
+#: inc/ajax/mark-follow-ajax-action.php:57
+#: inc/ajax/mark-process-ajax-action.php:14
+#: inc/ajax/mark-process-ajax-action.php:23
+#: inc/ajax/mark-process-ajax-action.php:76
+#: inc/ajax/new-category-ajax-action.php:41
+#: inc/ajax/new-template-ajax-action.php:64
+#: inc/ajax/paginator-notes-ajax-action.php:61
+#: inc/ajax/process-cancel-form-reply-ajax-action.php:12
+#: inc/ajax/process-cancel-form-reply-ajax-action.php:21
+#: inc/ajax/process-cancel-form-reply-ajax-action.php:41
+#: inc/ajax/process-filter-tickets-all-ajax-action.php:67
+#: inc/ajax/process-notification-ajax-action.php:21
+#: inc/ajax/reply-ticket-ajax-action.php:14
+#: inc/ajax/reply-ticket-ajax-action.php:23
+#: inc/ajax/reply-ticket-ajax-action.php:150
+#: inc/ajax/report-filter-ajax-action.php:186
+#: inc/ajax/save-note-ajax-action.php:15
+#: inc/ajax/save-note-ajax-action.php:24
+#: inc/ajax/save-note-ajax-action.php:70
+#: inc/ajax/save-rating-ajax-action.php:21
+#: inc/ajax/save-rating-ajax-action.php:59
+#: inc/ajax/submit-ticket-ajax-action.php:69
+#: inc/ajax/supporter-details-filter-ajax-action.php:69
+#: inc/ajax/supporter-report-filter-ajax-action.php:48
+#: inc/ajax/supporter-report-show-message-ajax-action.php:81
+#: inc/ajax/template-listing-paginator-ajax-action.php:91
+#: inc/ajax/unlock-category-ajax-action.php:16
+#: inc/ajax/unlock-category-ajax-action.php:25
+#: inc/ajax/unlock-category-ajax-action.php:54
+#: inc/ajax/unlock-template-ajax-action.php:18
+#: inc/ajax/unlock-template-ajax-action.php:27
+#: inc/ajax/unlock-template-ajax-action.php:56
+#: inc/ajax/unlock-user-ajax-action.php:15
+#: inc/ajax/unlock-user-ajax-action.php:46
+#: inc/ajax/unmark-follow-ajax-action.php:17
+#: inc/ajax/unmark-follow-ajax-action.php:28
+#: inc/ajax/unmark-follow-ajax-action.php:57
+#: inc/ajax/unmark-process-ajax-action.php:15
+#: inc/ajax/unmark-process-ajax-action.php:24
+#: inc/ajax/unmark-process-ajax-action.php:75
+#: inc/ajax/update-category-ajax-action.php:20
+#: inc/ajax/update-category-ajax-action.php:51
+#: inc/ajax/update-mail-template-ajax-action.php:20
+#: inc/ajax/update-mail-template-ajax-action.php:44
+#: inc/ajax/update-profile-ajax-action.php:133
+#: inc/ajax/update-template-ajax-action.php:16
+#: inc/ajax/update-template-ajax-action.php:25
+#: inc/ajax/update-template-ajax-action.php:104
+msgid "Error"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:73
+#: templates/endpoints/ticket-details.php:504
+msgid "Unclose"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:74
+#: inc/ajax/change-status-ajax-action.php:79
+#: templates/endpoints/dashboards.php:94
+#: templates/endpoints/supporter-details.php:75
+#: templates/endpoints/ticket-details.php:468
+#: templates/endpoints/ticket-details.php:506
+#: templates/endpoints/tickets.php:134
+#: templates/tickets/ticket-item.php:87
+msgid "Close"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:80
+#: templates/endpoints/dashboards.php:66
+#: templates/endpoints/ticket-details.php:462
+#: templates/endpoints/tickets.php:128
+#: templates/tickets/ticket-item.php:81
+#: templates/tickets/ticket-item.php:90
+msgid "Request"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:98
+msgid "has changed status of  ticket"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:98
+msgid "to"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:101
+#: inc/ajax/mark-process-ajax-action.php:70
+#: inc/ajax/unmark-process-ajax-action.php:69
+msgid "Can not update status!!"
+msgstr ""
+
+#: inc/ajax/change-status-ajax-action.php:104
+msgid "You have not permission to change status"
+msgstr ""
+
+#: inc/ajax/change-supporter-ajax-action.php:37
+#: templates/endpoints/rating-report.php:76
+msgid "Not assign"
+msgstr ""
+
+#: inc/ajax/change-supporter-ajax-action.php:50
+msgid "Can not update supporter!!"
+msgstr ""
+
+#: inc/ajax/change-supporter-ajax-action.php:57
+msgid "has change supporter of ticket"
+msgstr ""
+
+#: inc/ajax/change-supporter-ajax-action.php:61
+msgid "You have not permission to assign supporter"
+msgstr ""
+
+#: inc/ajax/customer-details-paginator-ajax-action.php:68
+#: inc/ajax/dashboards-filter-ticket-ajax-action.php:36
+#: inc/ajax/process-filter-tickets-all-ajax-action.php:60
+#: inc/ajax/report-filter-ajax-action.php:168
+#: inc/ajax/supporter-details-filter-ajax-action.php:62
+#: templates/endpoints/customer-details.php:100
+#: templates/endpoints/supporter-details.php:116
+#: templates/endpoints/tickets.php:173
+msgid "No ticket found!!"
+msgstr ""
+
+#: inc/ajax/dashboards-filter-ticket-ajax-action.php:17
+#: templates/endpoints/dashboards.php:54
+#: templates/endpoints/dashboards.php:148
+#: templates/endpoints/dashboards.php:161
+#: templates/endpoints/rating-report.php:65
+#: templates/endpoints/rating-report.php:75
+#: templates/endpoints/supporter-details.php:73
+#: templates/endpoints/tickets.php:108 templates/endpoints/tickets.php:126
+msgid "All"
+msgstr ""
+
+#: inc/ajax/dashboards-filter-ticket-ajax-action.php:19
+msgid "My ticket"
+msgstr ""
+
+#: inc/ajax/delete-category-ajax-action.php:36
+#: inc/ajax/delete-category-ajax-action.php:46
+msgid "Can not delete the category!!!"
+msgstr ""
+
+#: inc/ajax/delete-category-ajax-action.php:51
+msgid "You have not permission to delete this category!!"
+msgstr ""
+
+#: inc/ajax/delete-customer-ajax-action.php:41
+msgid "Can not delete this customer!!!"
+msgstr ""
+
+#: inc/ajax/delete-customer-ajax-action.php:51
+msgid "You have not permission delete this customer"
+msgstr ""
+
+#: inc/ajax/delete-customer-ajax-action.php:54
+msgid "Error!!"
+msgstr ""
+
+#: inc/ajax/delete-message-ajax-action.php:77
+msgid "Can not delete this message!!!"
+msgstr ""
+
+#: inc/ajax/delete-message-ajax-action.php:80
+msgid "You can not delete this message"
+msgstr ""
+
+#: inc/ajax/delete-note-ajax-action.php:25
+msgid "Can not delete this note!"
+msgstr ""
+
+#: inc/ajax/delete-note-ajax-action.php:29
+msgid "You have not permission to delete this note!!"
+msgstr ""
+
+#: inc/ajax/delete-supporter-ajax-action.php:35
+msgid "Can not delete this supporter!!!"
+msgstr ""
+
+#: inc/ajax/delete-supporter-ajax-action.php:41
+msgid "You have not permission to delete this supporter"
+msgstr ""
+
+#: inc/ajax/delete-template-ajax-action.php:28
+msgid "Can not delete this templates!!!"
+msgstr ""
+
+#: inc/ajax/delete-template-ajax-action.php:34
+#: inc/ajax/template-listing-paginator-ajax-action.php:84
+#: templates/endpoints/templates.php:84
+msgid "No template found!!"
+msgstr ""
+
+#: inc/ajax/delete-template-ajax-action.php:39
+msgid "You have not permission to delete this template"
+msgstr ""
+
+#: inc/ajax/delete-ticket-ajax-action.php:49
+msgid "Can not delete the ticket!!!"
+msgstr ""
+
+#: inc/ajax/delete-ticket-ajax-action.php:52
+msgid "You have not permission to delete this ticket"
+msgstr ""
+
+#: inc/ajax/edit-message-ajax-action.php:50
+msgid "Can not update message!!"
+msgstr ""
+
+#: inc/ajax/edit-message-ajax-action.php:53
+msgid "You can not edit this message!"
+msgstr ""
+
+#: inc/ajax/edit-message-ajax-action.php:56
+msgid "Please type your message!"
+msgstr ""
+
+#: inc/ajax/get-message-ajax-action.php:33
+#: inc/ajax/get-notification-ajax-action.php:46
+msgid "You can not get this message"
+msgstr ""
+
+#: inc/ajax/get-notification-ajax-action.php:37
+#: inc/ajax/supporter-report-filter-ajax-action.php:41
+#: templates/endpoints/supporter-report.php:90
+msgid "No data!!"
+msgstr ""
+
+#: inc/ajax/get-template-ajax-action.php:34
+msgid "You can not get this template!"
+msgstr ""
+
+#: inc/ajax/lock-category-ajax-action.php:39
+msgid "Can not lock the category!!!"
+msgstr ""
+
+#: inc/ajax/lock-category-ajax-action.php:52
+msgid "You have not permission to lock this category!!"
+msgstr ""
+
+#: inc/ajax/lock-template-ajax-action.php:40
+msgid "Can not set private for this template!!!"
+msgstr ""
+
+#: inc/ajax/lock-template-ajax-action.php:53
+msgid "You have not permission to set private for this template!!"
+msgstr ""
+
+#: inc/ajax/lock-template-ajax-action.php:64
+#: templates/template/template-item.php:16
+msgid "Private"
+msgstr ""
+
+#: inc/ajax/lost-password-ajax-action.php:22
+#: inc/ajax/lost-password-ajax-action.php:29
+msgid "This user has not existed!!!"
+msgstr ""
+
+#: inc/ajax/lost-password-ajax-action.php:42
+#: inc/ajax/lost-password-ajax-action.php:52
+#: inc/form-handler.class.php:416 inc/form-handler.class.php:426
+msgid "Link for reser password"
+msgstr ""
+
+#: inc/ajax/lost-password-ajax-action.php:43
+#: inc/ajax/lost-password-ajax-action.php:53
+#: inc/ajax/reply-ticket-ajax-action.php:116
+#: inc/ajax/reply-ticket-ajax-action.php:127
+#: inc/database-tickets.class.php:865 inc/database-tickets.class.php:877
+#: inc/form-handler.class.php:417 inc/form-handler.class.php:427
+#: inc/functions/processing-register.php:55
+#: inc/functions/processing-register.php:65
+msgid "unsubscribe"
+msgstr ""
+
+#: inc/ajax/lost-password-ajax-action.php:67
+#: inc/ajax/paginator-notes-ajax-action.php:58
+#: inc/ajax/supporter-report-show-message-ajax-action.php:78
+#: inc/ajax/template-listing-paginator-ajax-action.php:88
+msgid "You have not permission to do this action!"
+msgstr ""
+
+#: inc/ajax/lost-password-ajax-action.php:70
+msgid "Please confirm your email to create your new password!!!"
+msgstr ""
+
+#: inc/ajax/mark-follow-ajax-action.php:51
+msgid "Can not follow this ticket!!"
+msgstr ""
+
+#: inc/ajax/mark-follow-ajax-action.php:54
+msgid "You have not permission to mark follow this ticket!"
+msgstr ""
+
+#: inc/ajax/mark-process-ajax-action.php:61
+msgid "has marked process ticket"
+msgstr ""
+
+#: inc/ajax/mark-process-ajax-action.php:73
+msgid "You have not permission to mark process this ticket"
+msgstr ""
+
+#: inc/ajax/new-category-ajax-action.php:13
+#: inc/ajax/update-category-ajax-action.php:25
+#: inc/ajax/update-template-ajax-action.php:40
+msgid "Please fill in required field!!!!"
+msgstr ""
+
+#: inc/ajax/new-category-ajax-action.php:19
+#: inc/ajax/update-category-ajax-action.php:29
+msgid "This id has already existed!!!"
+msgstr ""
+
+#: inc/ajax/new-category-ajax-action.php:32
+#: inc/ajax/update-category-ajax-action.php:42
+msgid "Can not save the category!!!"
+msgstr ""
+
+#: inc/ajax/new-category-ajax-action.php:38
+msgid "You have not permission to add new category!!"
+msgstr ""
+
+#: inc/ajax/new-template-ajax-action.php:18
+#: inc/ajax/update-mail-template-ajax-action.php:25
+msgid "Please fill in all field!!!!"
+msgstr ""
+
+#: inc/ajax/new-template-ajax-action.php:40
+#: inc/ajax/update-template-ajax-action.php:58
+msgid "Can not update the template!!!"
+msgstr ""
+
+#: inc/ajax/new-template-ajax-action.php:61
+msgid "You have not permission to add new template!"
+msgstr ""
+
+#: inc/ajax/paginator-notes-ajax-action.php:51
+msgid "No note found!!"
+msgstr ""
+
+#: inc/ajax/process-notification-ajax-action.php:15
+msgid "Have an error!"
+msgstr ""
+
+#: inc/ajax/process-register-ajax-action.php:25
+msgid "Error!"
+msgstr ""
+
+#: inc/ajax/process-register-ajax-action.php:32
+#: inc/ajax/submit-ticket-ajax-action.php:78
+msgid ""
+"You have register success. Please confirm your email to verify your "
+"account!!"
+msgstr ""
+
+#: inc/ajax/reply-ticket-ajax-action.php:40
+msgid "Please type your message!!"
+msgstr ""
+
+#: inc/ajax/reply-ticket-ajax-action.php:101
+msgid " has just reply ticket"
+msgstr ""
+
+#: inc/ajax/reply-ticket-ajax-action.php:120
+msgid "Supporter reply ticket"
+msgstr ""
+
+#: inc/ajax/reply-ticket-ajax-action.php:141
+msgid "Can not reply this ticket!!"
+msgstr ""
+
+#: inc/ajax/reply-ticket-ajax-action.php:147
+msgid "You can not reply this ticket"
+msgstr ""
+
+#: inc/ajax/report-filter-ajax-action.php:183
+msgid "You have not permission to do this action!!"
+msgstr ""
+
+#: inc/ajax/save-note-ajax-action.php:64
+msgid "Can not save note"
+msgstr ""
+
+#: inc/ajax/save-note-ajax-action.php:67
+msgid "You have not permission to add new note"
+msgstr ""
+
+#: inc/ajax/save-rating-ajax-action.php:44
+msgid "Thank you for your appreciation!!"
+msgstr ""
+
+#: inc/ajax/save-rating-ajax-action.php:47
+msgid "Can not appriciate!!!"
+msgstr ""
+
+#: inc/ajax/save-rating-ajax-action.php:50
+msgid ""
+"You have not permission to rate or key has not exist or ticket not close"
+msgstr ""
+
+#: inc/ajax/save-rating-ajax-action.php:53
+msgid "Key has expired!!"
+msgstr ""
+
+#: inc/ajax/save-rating-ajax-action.php:56
+msgid "Key not exist!!"
+msgstr ""
+
+#: inc/ajax/submit-ticket-ajax-action.php:20 inc/filter.class.php:39
+#: inc/functions/processing-register.php:6
+msgid "Please fill in required field!"
+msgstr ""
+
+#: inc/ajax/submit-ticket-ajax-action.php:64
+msgid "This theme is not active!!"
+msgstr ""
+
+#: inc/ajax/supporter-report-filter-ajax-action.php:45
+msgid "You have not permission to view report!!"
+msgstr ""
+
+#: inc/ajax/supporter-report-show-message-ajax-action.php:71
+msgid "No message found!!"
+msgstr ""
+
+#: inc/ajax/unlock-category-ajax-action.php:38
+msgid "Can not unlock the category!!!"
+msgstr ""
+
+#: inc/ajax/unlock-category-ajax-action.php:51
+msgid "You have not permission to unlock this category!!"
+msgstr ""
+
+#: inc/ajax/unlock-template-ajax-action.php:40
+msgid "Can not set public for this template!!!"
+msgstr ""
+
+#: inc/ajax/unlock-template-ajax-action.php:53
+msgid "You have not permission to set public for this template!!"
+msgstr ""
+
+#: inc/ajax/unlock-template-ajax-action.php:64
+#: templates/template/template-item.php:14
+msgid "Public"
+msgstr ""
+
+#: inc/ajax/unlock-user-ajax-action.php:39
+msgid "Can not unlock this user!!!"
+msgstr ""
+
+#: inc/ajax/unlock-user-ajax-action.php:42
+msgid "You have not permission to unlock this user"
+msgstr ""
+
+#: inc/ajax/unmark-follow-ajax-action.php:51
+msgid "Can not unfollow this ticket!!"
+msgstr ""
+
+#: inc/ajax/unmark-process-ajax-action.php:59
+msgid "has unmarked process ticket"
+msgstr ""
+
+#: inc/ajax/update-category-ajax-action.php:48
+msgid "You have not permission to update category!!"
+msgstr ""
+
+#: inc/ajax/update-mail-template-ajax-action.php:37
+msgid "Can not save the subject!!!"
+msgstr ""
+
+#: inc/ajax/update-mail-template-ajax-action.php:41
+msgid "You have not permission to update mail template"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:14
+msgid "User has not existed!!"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:30
+msgid "Please fill in require field!!"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:32
+msgid "Password and repeat password not same!!"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:97
+msgid "Please select a valid image file (JPEG/JPG/PNG)"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:104
+msgid "Can not update profile!!"
+msgstr ""
+
+#: inc/ajax/update-profile-ajax-action.php:128
+msgid "You have not permission to update profile"
+msgstr ""
+
+#: inc/ajax/update-template-ajax-action.php:101
+msgid "You have not permission to update template"
+msgstr ""
+
+#: inc/ajax/update-template-ajax-action.php:110
+msgid "Update template success!"
+msgstr ""
+
+#: inc/cron-job.class.php:45
+msgid "Every 2 hours"
+msgstr ""
+
+#: inc/cron-job.class.php:85
+msgid "Daily"
+msgstr ""
+
+#: inc/database-tickets.class.php:864 inc/database-tickets.class.php:876
+msgid "Link for rating"
+msgstr ""
+
+#: inc/database-tickets.class.php:932
+msgid "Can not lock this ticket!!"
+msgstr ""
+
+#: inc/database-tickets.class.php:955
+msgid "Can not unlock this ticket!!"
+msgstr ""
+
+#: inc/endpoints.class.php:62
+msgid "Submit Ticket"
+msgstr ""
+
+#: inc/endpoints.class.php:63 templates/endpoints/register.php:10
+#: templates/endpoints/register.php:92
+msgid "Register"
+msgstr ""
+
+#: inc/endpoints.class.php:64
+msgid "Ticket Details"
+msgstr ""
+
+#: inc/endpoints.class.php:65
+msgid "Listing tickets"
+msgstr ""
+
+#: inc/endpoints.class.php:66 templates/endpoints/register.php:106
+msgid "Login"
+msgstr ""
+
+#: inc/endpoints.class.php:67 templates/left-nav.php:176
+#: templates/left-nav.php:200
+msgid "Customers"
+msgstr ""
+
+#: inc/endpoints.class.php:68
+msgid "Supporters"
+msgstr ""
+
+#: inc/endpoints.class.php:69
+msgid "Supporter details"
+msgstr ""
+
+#: inc/endpoints.class.php:70
+msgid "Customer details"
+msgstr ""
+
+#: inc/endpoints.class.php:71
+msgid "New template"
+msgstr ""
+
+#: inc/endpoints.class.php:72
+msgid "Listing templates"
+msgstr ""
+
+#: inc/endpoints.class.php:73 templates/endpoints/update-template.php:97
+msgid "Update template"
+msgstr ""
+
+#: inc/endpoints.class.php:74 templates/endpoints/categories.php:90
+msgid "New category"
+msgstr ""
+
+#: inc/endpoints.class.php:75
+msgid "Listing categories"
+msgstr ""
+
+#: inc/endpoints.class.php:76 templates/endpoints/dashboards.php:31
+#: templates/left-nav.php:49
+msgid "Dashboards"
+msgstr ""
+
+#: inc/endpoints.class.php:77 inc/endpoints.class.php:84
+#: templates/left-nav.php:231 templates/left-nav.php:238
+msgid "Report"
+msgstr ""
+
+#: inc/endpoints.class.php:78
+msgid "Updating category"
+msgstr ""
+
+#: inc/endpoints.class.php:79
+msgid "Lost password"
+msgstr ""
+
+#: inc/endpoints.class.php:80 templates/endpoints/reset-password.php:9
+msgid "Reset password"
+msgstr ""
+
+#: inc/endpoints.class.php:81
+msgid "User Profile"
+msgstr ""
+
+#: inc/endpoints.class.php:82
+msgid "Update subject mail"
+msgstr ""
+
+#: inc/endpoints.class.php:83
+msgid "Listing mail templates"
+msgstr ""
+
+#: inc/filter.class.php:80
+msgid "Can not save ticket!!"
+msgstr ""
+
+#: inc/form-handler.class.php:52
+msgid "Cron time remove lock reply ticket must be a number and positive."
+msgstr ""
+
+#: inc/form-handler.class.php:63
+msgid "Cron time close ticket must be a number and positive."
+msgstr ""
+
+#: inc/form-handler.class.php:77
+msgid "Support Settings page updated successfully."
+msgstr ""
+
+#: inc/form-handler.class.php:98 inc/form-handler.class.php:156
+msgid "Title and link of menu not empty."
+msgstr ""
+
+#: inc/form-handler.class.php:108 inc/form-handler.class.php:166
+msgid "Menu link of menu must be an url."
+msgstr ""
+
+#: inc/form-handler.class.php:132
+msgid "A menu has been save successful!."
+msgstr ""
+
+#: inc/form-handler.class.php:193
+msgid "A menu has been saved successful!."
+msgstr ""
+
+#: inc/form-handler.class.php:200 inc/form-handler.class.php:238
+msgid "Have not any menu!."
+msgstr ""
+
+#: inc/form-handler.class.php:260
+msgid "Register Settings page updated successfully."
+msgstr ""
+
+#: inc/form-handler.class.php:335
+#, php-format
+msgid ""
+" <strong>ERROR</strong>: the password you entered for the username "
+"<strong>%s</strong> is incorrect. <a href=\"%s\">Lost your password?</a>"
+msgstr ""
+
+#: inc/form-handler.class.php:375
+msgid "<strong>ERROR:</strong> Enter a username or email address."
+msgstr ""
+
+#: inc/form-handler.class.php:380 inc/form-handler.class.php:387
+msgid "<strong>ERROR:</strong> This user has not existed!!!"
+msgstr ""
+
+#: inc/form-handler.class.php:400
+msgid ""
+"<strong>ERROR:</strong> Password reset is not allowed for this user."
+msgstr ""
+
+#: inc/form-handler.class.php:439
+msgid ""
+"<div class=\"form__message--success\">Please confirm your email to "
+"create your new password!!!</div>"
+msgstr ""
+
+#: inc/form-handler.class.php:460
+msgid "<strong>ERROR:</strong> Enter your password and repeat it"
+msgstr ""
+
+#: inc/form-handler.class.php:463
+msgid "<strong>ERROR:</strong> Email is not empty!"
+msgstr ""
+
+#: inc/form-handler.class.php:466
+msgid "Password and repeat password not same!!!"
+msgstr ""
+
+#: inc/form-handler.class.php:475
+msgid "User has not existed!!!"
+msgstr ""
+
+#: inc/form-handler.class.php:478
+msgid ""
+"<div class=\"form__message--success\">Reset password successful. Please "
+"login to use our service!!</div>"
+msgstr ""
+
+#: inc/functions/helper.php:104
+msgid "— Select —"
+msgstr ""
+
+#: inc/functions/helper.php:126
+msgid "just now"
+msgstr ""
+
+#: inc/functions/helper.php:128
+#, php-format
+msgid "%d seconds ago"
+msgstr ""
+
+#: inc/functions/helper.php:135
+#, php-format
+msgid "about %d minutes ago"
+msgstr ""
+
+#: inc/functions/helper.php:142
+#, php-format
+msgid "about %d hours ago"
+msgstr ""
+
+#: inc/functions/helper.php:493
+#: templates/tickets/supporter-processing.php:7
+#, php-format
+msgid "%s processing"
+msgstr ""
+
+#: inc/functions/processing-register.php:9
+msgid "Email is invalid!"
+msgstr ""
+
+#: inc/functions/processing-register.php:13
+msgid "Password and repeat password not same!"
+msgstr ""
+
+#: inc/functions/processing-register.php:20
+msgid "The email has existed! If you are, please "
+msgstr ""
+
+#: inc/functions/processing-register.php:21
+msgid "login"
+msgstr ""
+
+#: inc/functions/processing-register.php:21
+msgid " or "
+msgstr ""
+
+#: inc/functions/processing-register.php:22
+msgid "forgot password."
+msgstr ""
+
+#: inc/functions/processing-register.php:54
+#: inc/functions/processing-register.php:64
+msgid " Verify your account. "
+msgstr ""
+
+#: inc/functions/processing-register.php:59
+msgid "Mail confirm register"
+msgstr ""
+
+#: inc/functions/set-form-login.php:8
+msgid "Username or Email Address*"
+msgstr ""
+
+#: inc/functions/set-form-login.php:9 templates/endpoints/register.php:65
+#: templates/endpoints/reset-password.php:19
+#: templates/endpoints/submit-ticket.php:63
+msgid "Password*"
+msgstr ""
+
+#: inc/functions/set-form-login.php:10
+msgid "Remember Me"
+msgstr ""
+
+#: inc/functions/set-form-login.php:11
+msgid "LogIn"
+msgstr ""
+
+#: inc/functions/upload-file.php:33
+msgid "Sorry you can not upload your file "
+msgstr ""
+
+#: inc/functions/upload-file.php:47
+msgid "Please select a valid image file (JPEG/JPG/PNG/GIF)"
+msgstr ""
+
+#: inc/install.class.php:246 templates/endpoints/supporter-report.php:60
+#: templates/reports/supporter-report-item.php:6
+msgid "Supporter"
+msgstr ""
+
+#: inc/install.class.php:250
+msgid "Leader supporter"
+msgstr ""
+
+#: inc/install.class.php:280
+msgid "Mail reply ticket"
+msgstr ""
+
+#: inc/install.class.php:293
+msgid "Mail reset password"
+msgstr ""
+
+#: inc/install.class.php:307
+msgid "Mail close ticket"
+msgstr ""
+
+#: inc/install.class.php:319
+msgid "Mail register"
+msgstr ""
+
+#: templates/category/category-item.php:4
+#: templates/endpoints/categories.php:30
+msgid "Category ID"
+msgstr ""
+
+#: templates/category/category-item.php:5
+#: templates/endpoints/categories.php:31
+msgid "Category name"
+msgstr ""
+
+#: templates/category/category-item.php:8
+#: templates/endpoints/categories.php:32
+#: templates/endpoints/ticket-details.php:455
+#: templates/endpoints/ticket-details.php:497
+#: templates/themes/theme-item.php:11
+msgid "Status"
+msgstr ""
+
+#: templates/category/category-item.php:16
+#: templates/customers/customer-item.php:33
+#: templates/endpoints/categories.php:33
+#: templates/endpoints/customers.php:46
+#: templates/endpoints/mail-templates.php:25
+#: templates/endpoints/mail-templates.php:40
+#: templates/endpoints/supporters.php:27
+#: templates/endpoints/supporters.php:72
+#: templates/endpoints/templates.php:44
+#: templates/template/template-item.php:23
+#: templates/themes/theme-item.php:19
+msgid "Action"
+msgstr ""
+
+#: templates/category/category-item.php:31
+msgid "Are you sure want to delete this category?"
+msgstr ""
+
+#: templates/category/lock-category.php:9
+msgid "Are your sure want to lock this category?"
+msgstr ""
+
+#: templates/category/lock-category.php:11
+#: templates/themes/lock-theme.php:11
+msgid "Lock"
+msgstr ""
+
+#: templates/category/status-invalid.php:1
+#: templates/themes/status-invalid.php:1
+msgid "Inactive"
+msgstr ""
+
+#: templates/category/unlock-category.php:9
+msgid "Are your sure want to unlock this category?"
+msgstr ""
+
+#: templates/category/unlock-category.php:11
+#: templates/customers/customer-item.php:70
+#: templates/endpoints/customer-details.php:52
+#: templates/endpoints/supporters.php:107
+#: templates/themes/unlock-theme.php:11 templates/users/unlock-user.php:9
+msgid "Unlock"
+msgstr ""
+
+#: templates/customers/customer-item.php:5
+#: templates/endpoints/customers.php:42
+#: templates/endpoints/mail-templates.php:23
+#: templates/endpoints/mail-templates.php:34
+#: templates/endpoints/supporter-report.php:102
+#: templates/endpoints/supporters.php:22
+#: templates/endpoints/supporters.php:40
+#: templates/endpoints/templates.php:40
+#: templates/reports/message-item.php:3
+#: templates/template/template-item.php:3
+#: templates/themes/theme-item.php:4
+msgid "ID"
+msgstr ""
+
+#: templates/customers/customer-item.php:8
+#: templates/endpoints/customers.php:43
+#: templates/endpoints/supporters.php:23
+#: templates/endpoints/supporters.php:43
+#: templates/supporters/supporter-details.php:8
+msgid "Name"
+msgstr ""
+
+#: templates/customers/customer-item.php:12
+#: templates/endpoints/supporters.php:48
+msgid "Avatar"
+msgstr ""
+
+#: templates/customers/customer-item.php:21
+#: templates/endpoints/customers.php:44
+#: templates/endpoints/supporters.php:24
+#: templates/endpoints/supporters.php:52
+msgid "Email"
+msgstr ""
+
+#: templates/customers/customer-item.php:25
+#: templates/endpoints/supporters.php:56
+msgid "Register:"
+msgstr ""
+
+#: templates/customers/customer-item.php:30
+#: templates/endpoints/customers.php:45
+#: templates/endpoints/supporter-report.php:64
+#: templates/reports/supporter-report-item.php:31
+msgid "Number of ticket"
+msgstr ""
+
+#: templates/customers/customer-item.php:36
+#: templates/endpoints/supporters.php:75
+msgid "View details"
+msgstr ""
+
+#: templates/customers/customer-item.php:56
+#: templates/endpoints/customer-details.php:38
+#: templates/endpoints/supporters.php:94 templates/users/delete-user.php:9
+msgid "Are you sure delete this user?"
+msgstr ""
+
+#: templates/customers/customer-item.php:69
+#: templates/endpoints/customer-details.php:51
+#: templates/endpoints/supporters.php:106
+#: templates/users/unlock-user.php:8
+msgid "Are you sure unlock this user?"
+msgstr ""
+
+#: templates/customers/customer-ticket-item.php:31
+#: templates/dashboards/ticket-item.php:12
+#: templates/tickets/ticket-item-report.php:25
+msgid "Updated "
+msgstr ""
+
+#: templates/customers/input-search.php:2
+msgid "Search by ID, email address, name,username"
+msgstr ""
+
+#: templates/endpoints/categories.php:11
+msgid "Manage categories"
+msgstr ""
+
+#: templates/endpoints/categories.php:17
+#: templates/endpoints/new-category.php:7
+msgid "Add new category"
+msgstr ""
+
+#: templates/endpoints/categories.php:96
+#: templates/endpoints/new-category.php:26
+#: templates/endpoints/updating-category.php:34
+msgid "Category name*"
+msgstr ""
+
+#: templates/endpoints/categories.php:105
+#: templates/endpoints/new-category.php:35
+#: templates/endpoints/updating-category.php:45
+msgid "Category ID*"
+msgstr ""
+
+#: templates/endpoints/categories.php:115
+msgid "Add Category"
+msgstr ""
+
+#: templates/endpoints/customer-details.php:77
+#, php-format
+msgid "%s tickets"
+msgstr ""
+
+#: templates/endpoints/customers.php:12
+msgid "Manage customers"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:37
+msgid ""
+"Your account has not verified. Please confirm your mail to verify it!!"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:58
+#: templates/endpoints/dashboards.php:72
+#: templates/endpoints/dashboards.php:86
+#: templates/endpoints/dashboards.php:98 templates/left-nav.php:56
+msgid "Tickets"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:80
+#: templates/endpoints/supporter-details.php:74
+#: templates/endpoints/ticket-details.php:465
+#: templates/endpoints/tickets.php:131
+#: templates/tickets/ticket-item.php:84
+msgid "Responded"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:107
+msgid "Ticket Distribution"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:108
+#: templates/endpoints/dashboards.php:141
+msgid "Current"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:115
+#: templates/endpoints/dashboards.php:193
+#: templates/endpoints/rating-report.php:108
+msgid "Current no have ticket!"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:135
+msgid "Older Ticket Request"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:137
+msgid "Newest Ticket Responded"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:171
+msgid "My tickets"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:228
+msgid "Your notes"
+msgstr ""
+
+#: templates/endpoints/dashboards.php:269
+msgid "You have no note!!"
+msgstr ""
+
+#: templates/endpoints/login.php:7
+msgid "Login to your account"
+msgstr ""
+
+#: templates/endpoints/login.php:15
+msgid "Your account has locked!"
+msgstr ""
+
+#: templates/endpoints/login.php:20
+msgid "Error status: "
+msgstr ""
+
+#: templates/endpoints/login.php:62
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/endpoints/login.php:85
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/endpoints/login.php:86
+msgid "Create an account"
+msgstr ""
+
+#: templates/endpoints/lost-password.php:14
+msgid ""
+"Please enter your username or e-mail address. You will receive a link "
+"to create a new password via e-mail."
+msgstr ""
+
+#: templates/endpoints/lost-password.php:20
+msgid "Username or Email address*"
+msgstr ""
+
+#: templates/endpoints/lost-password.php:33
+msgid "Get reset link"
+msgstr ""
+
+#: templates/endpoints/mail-templates.php:10
+msgid "Manage mail templates"
+msgstr ""
+
+#: templates/endpoints/mail-templates.php:24
+#: templates/endpoints/mail-templates.php:37
+msgid "Subject"
+msgstr ""
+
+#: templates/endpoints/mail-templates.php:51
+msgid "No mail template found!!"
+msgstr ""
+
+#: templates/endpoints/new-category.php:18
+#: templates/endpoints/updating-category.php:22
+msgid "Category information"
+msgstr ""
+
+#: templates/endpoints/new-category.php:45
+msgid "Add category"
+msgstr ""
+
+#: templates/endpoints/new-category.php:51
+#: templates/endpoints/new-template.php:75
+#: templates/endpoints/update-mail-template.php:57
+#: templates/endpoints/update-template.php:103
+#: templates/endpoints/updating-category.php:62
+#: templates/endpoints/user-profile.php:171
+msgid "Come back"
+msgstr ""
+
+#: templates/endpoints/new-template.php:12
+msgid "Add new template"
+msgstr ""
+
+#: templates/endpoints/new-template.php:23
+#: templates/endpoints/update-template.php:31
+msgid "Template information"
+msgstr ""
+
+#: templates/endpoints/new-template.php:32
+#: templates/endpoints/update-template.php:42
+msgid "Template name*"
+msgstr ""
+
+#: templates/endpoints/new-template.php:45
+#: templates/endpoints/update-template.php:61
+msgid "Template tags"
+msgstr ""
+
+#: templates/endpoints/new-template.php:61
+#: templates/endpoints/update-template.php:89
+msgid "Public template"
+msgstr ""
+
+#: templates/endpoints/new-template.php:69
+#: templates/endpoints/templates.php:27
+msgid "Add template"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:26
+msgid "Rating report"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:48
+#: templates/endpoints/supporter-details.php:80
+#: templates/endpoints/supporter-report.php:33
+msgid "Form date"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:55
+#: templates/endpoints/supporter-details.php:87
+#: templates/endpoints/supporter-report.php:42
+#: templates/endpoints/supporter-report.php:62
+#: templates/reports/supporter-report-item.php:12
+msgid "To date"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:62
+msgid "Rating:"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:66
+#: templates/endpoints/supporter-details.php:58
+#: templates/endpoints/ticket-details.php:388
+#: templates/endpoints/ticket-details.php:504
+#: templates/endpoints/tickets.php:83 templates/reports/other-link.php:24
+#: templates/reports/other-link.php:25 templates/reports/other-link.php:27
+#: templates/reports/satisfied-link.php:23
+#: templates/reports/satisfied-link.php:24
+#: templates/reports/satisfied-link.php:26
+#: templates/reports/unsatisfied-link.php:24
+#: templates/reports/unsatisfied-link.php:27
+#: templates/reports/visited-link.php:24
+#: templates/reports/visited-link.php:25
+#: templates/reports/visited-link.php:27
+msgid "1"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:66
+#: templates/tickets/ticket-item-report.php:44
+msgid "Satisfied"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:67
+#: templates/endpoints/rating-report.php:76
+#: templates/endpoints/ticket-details.php:397
+#: templates/reports/unsatisfied-link.php:23
+msgid "0"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:67
+#: templates/tickets/ticket-item-report.php:47
+msgid "Unsatisfied"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:72
+msgid "Supporter:"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:90
+#: templates/endpoints/supporter-details.php:63
+#: templates/endpoints/supporter-details.php:94
+#: templates/endpoints/supporter-report.php:50
+#: templates/endpoints/tickets.php:93 templates/endpoints/tickets.php:141
+msgid "Search"
+msgstr ""
+
+#: templates/endpoints/rating-report.php:167
+msgid "Listing ticket"
+msgstr ""
+
+#: templates/endpoints/register.php:31
+#: templates/endpoints/submit-ticket.php:33
+#: templates/endpoints/user-profile.php:58
+msgid "First name*"
+msgstr ""
+
+#: templates/endpoints/register.php:41
+#: templates/endpoints/submit-ticket.php:42
+#: templates/endpoints/user-profile.php:68
+msgid "Last name*"
+msgstr ""
+
+#: templates/endpoints/register.php:52
+#: templates/endpoints/submit-ticket.php:52
+msgid "Email address*"
+msgstr ""
+
+#: templates/endpoints/register.php:74
+#: templates/endpoints/reset-password.php:28
+#: templates/endpoints/submit-ticket.php:72
+msgid "Repeat password*"
+msgstr ""
+
+#: templates/endpoints/register.php:103
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/endpoints/reset-password.php:41
+msgid "Create new password"
+msgstr ""
+
+#: templates/endpoints/reset-password.php:52
+msgid ""
+"This url is expired. Please visit this link, we will send to you a mail "
+"to get url."
+msgstr ""
+
+#: templates/endpoints/reset-password.php:54
+msgid "Forgot Password"
+msgstr ""
+
+#: templates/endpoints/submit-ticket.php:12
+#: templates/endpoints/submit-ticket.php:125 templates/sts-header.php:13
+msgid "Submit ticket"
+msgstr ""
+
+#: templates/endpoints/submit-ticket.php:28
+msgid "Registration:"
+msgstr ""
+
+#: templates/endpoints/submit-ticket.php:94
+msgid "Ticket information:"
+msgstr ""
+
+#: templates/endpoints/submit-ticket.php:98
+msgid "Ticket subject*"
+msgstr ""
+
+#: templates/endpoints/submit-ticket.php:114
+#: templates/endpoints/ticket-details.php:311
+msgid "Add attachment( jpg, jpeg, png, gif allowed):"
+msgstr ""
+
+#: templates/endpoints/supporter-details.php:45
+msgid "All tickets"
+msgstr ""
+
+#: templates/endpoints/supporter-details.php:66
+msgid "Search by subject of tickets"
+msgstr ""
+
+#: templates/endpoints/supporter-details.php:70
+#: templates/endpoints/tickets.php:123
+msgid "Status:"
+msgstr ""
+
+#: templates/endpoints/supporter-details.php:74
+#: templates/sts-header-login.php:66
+msgid "2"
+msgstr ""
+
+#: templates/endpoints/supporter-details.php:75
+#: templates/endpoints/ticket-details.php:506
+msgid "3"
+msgstr ""
+
+#: templates/endpoints/supporter-report.php:13
+msgid "Supporter report"
+msgstr ""
+
+#: templates/endpoints/supporter-report.php:61
+#: templates/reports/supporter-report-item.php:9
+msgid "From date"
+msgstr ""
+
+#: templates/endpoints/supporter-report.php:63
+#: templates/reports/supporter-report-item.php:15
+msgid "Number of message"
+msgstr ""
+
+#: templates/endpoints/supporter-report.php:97
+msgid "Listing message"
+msgstr ""
+
+#: templates/endpoints/supporter-report.php:103
+#: templates/reports/message-item.php:9
+msgid "Message"
+msgstr ""
+
+#: templates/endpoints/supporters.php:10
+msgid "Manage supporters"
+msgstr ""
+
+#: templates/endpoints/supporters.php:25
+#: templates/endpoints/supporters.php:61
+msgid "Close tickets"
+msgstr ""
+
+#: templates/endpoints/supporters.php:26
+msgid "Open ticket"
+msgstr ""
+
+#: templates/endpoints/supporters.php:66
+msgid "Open tickets"
+msgstr ""
+
+#: templates/endpoints/supporters.php:119
+msgid "No supporter found!!"
+msgstr ""
+
+#: templates/endpoints/templates.php:22
+msgid "Manage templates"
+msgstr ""
+
+#: templates/endpoints/templates.php:41
+#: templates/template/template-item.php:7
+msgid "Template name"
+msgstr ""
+
+#: templates/endpoints/templates.php:42
+#: templates/template/template-item.php:10
+msgid "Type of template"
+msgstr ""
+
+#: templates/endpoints/templates.php:43
+#: templates/template/template-item.php:20
+msgid "Created user"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:41
+#: templates/endpoints/ticket-details.php:447
+msgid "Ticket details"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:230
+#, php-format
+msgid "Closed at %s"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:253
+msgid "Post a reply"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:264
+msgid "Unlock reply"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:283
+msgid "Choose template"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:320
+msgid "Post reply"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:333
+#: templates/endpoints/ticket-details.php:520
+#: templates/endpoints/ticket-details.php:585
+#: templates/endpoints/ticket-details.php:721
+#: templates/ticket-details/message-action.php:27
+msgid "Cancel"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:354
+msgid "Rating info"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:355
+#, php-format
+msgid "Latest rate: %s"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:373
+msgid "Your appreciation make us support better"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:383
+msgid "How would you rate the support you received?"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:392
+msgid "Good,I'm satisfied"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:400
+msgid "Bad I'm unsatisfied"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:407
+msgid ""
+"Add a comment about the quality of support you received (optional):"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:420
+#: templates/endpoints/ticket-details.php:514
+#: templates/endpoints/ticket-details.php:579
+msgid "Update"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:430
+#: templates/endpoints/ticket-details.php:436
+msgid ""
+"This rating url is invalid or has expired. \n"
+"                                            Notice: url rating has "
+"expired in 7 days from you received our mail."
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:530
+#: templates/endpoints/ticket-details.php:556
+msgid "Assigned"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:562
+msgid "Assign supporter"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:602
+msgid "Customer"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:614
+msgid "Contact"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:625
+msgid "Created date"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:638
+msgid "Category"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:657
+msgid "Are you sue delete this ticket?"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:659
+msgid "Delete this ticket"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:669
+msgid "Listing Note"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:673
+msgid "Add new note"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:710
+msgid "Post a note"
+msgstr ""
+
+#: templates/endpoints/ticket-details.php:716
+msgid "Post note"
+msgstr ""
+
+#: templates/endpoints/tickets.php:47
+msgid "Request tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:50
+msgid "Responded tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:53
+msgid "Closed tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:56
+msgid "Processing tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:59
+msgid "Following tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:62
+msgid "My all tickets"
+msgstr ""
+
+#: templates/endpoints/tickets.php:65
+msgid "All tickets "
+msgstr ""
+
+#: templates/endpoints/tickets.php:96
+msgid "Search by subject of ticket"
+msgstr ""
+
+#: templates/endpoints/update-mail-template.php:12
+#: templates/endpoints/update-mail-template.php:51
+msgid "Update mail template"
+msgstr ""
+
+#: templates/endpoints/update-mail-template.php:23
+msgid "Mail template information"
+msgstr ""
+
+#: templates/endpoints/update-mail-template.php:32
+msgid "Subject*"
+msgstr ""
+
+#: templates/endpoints/update-mail-template.php:42
+msgid "Mail content*:"
+msgstr ""
+
+#: templates/endpoints/update-template.php:20
+msgid "Edit template"
+msgstr ""
+
+#: templates/endpoints/updating-category.php:11
+msgid "Edit category"
+msgstr ""
+
+#: templates/endpoints/updating-category.php:56
+msgid "Update category"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:31
+msgid "Profile information"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:45
+msgid "Username"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:79
+msgid "Email address"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:86
+msgid "If you want to change the email, please visit this"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:87
+msgid "link"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:92
+msgid "Password"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:102
+msgid "Repeat password"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:119
+msgid "Unsubscribe email"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:123
+msgid ""
+"You have unsubscribed our email. If you want to receive our email, "
+"please uncheck this field!"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:133
+msgid "Your signature:"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:145
+msgid "On signature"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:150
+msgid "Off signature"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:159
+msgid "Avatar image:"
+msgstr ""
+
+#: templates/endpoints/user-profile.php:166
+msgid "Update profile"
+msgstr ""
+
+#: templates/left-nav.php:41
+msgid "Application"
+msgstr ""
+
+#: templates/left-nav.php:78
+msgid "Tickets Request"
+msgstr ""
+
+#: templates/left-nav.php:88
+msgid "All Tickets"
+msgstr ""
+
+#: templates/left-nav.php:99
+msgid "Tickets Responded"
+msgstr ""
+
+#: templates/left-nav.php:119
+msgid "Tickets processing"
+msgstr ""
+
+#: templates/left-nav.php:130
+msgid "My Tickets Following"
+msgstr ""
+
+#: templates/left-nav.php:144
+msgid "My All Tickets"
+msgstr ""
+
+#: templates/left-nav.php:156
+msgid "Tickets Closed"
+msgstr ""
+
+#: templates/left-nav.php:170 templates/left-nav.php:193
+msgid "Management"
+msgstr ""
+
+#: templates/left-nav.php:184 templates/left-nav.php:216
+msgid "Ticket Templates"
+msgstr ""
+
+#: templates/left-nav.php:208
+msgid "Supporters Management"
+msgstr ""
+
+#: templates/left-nav.php:225
+msgid "Mail templates"
+msgstr ""
+
+#: templates/left-nav.php:254
+msgid "Rating Report"
+msgstr ""
+
+#: templates/left-nav.php:259
+msgid "Supporter Report"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:9
+#: templates/mails/template-mail-register.php:9
+#: templates/mails/template-mail-reply.php:8
+#: templates/mails/template-mail-reset-password.php:9
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:13
+msgid " has just close your ticket "
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:17
+msgid "Tell us how do you feel about our service."
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:23
+msgid "Notice: This link has expired in 7 days from you receive our mail."
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:24
+#: templates/mails/template-mail-register.php:20
+#: templates/mails/template-mail-reply.php:15
+#: templates/mails/template-mail-reset-password.php:20
+msgid "Thank you for using our service!"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:25
+#: templates/mails/template-mail-register.php:21
+#: templates/mails/template-mail-reply.php:16
+#: templates/mails/template-mail-reset-password.php:21
+msgid "Best regards!"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:26
+#: templates/mails/template-mail-register.php:22
+#: templates/mails/template-mail-reply.php:17
+#: templates/mails/template-mail-reset-password.php:22
+msgid "G5Plus company"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:32
+#: templates/mails/template-mail-register.php:28
+#: templates/mails/template-mail-reply.php:23
+#: templates/mails/template-mail-reset-password.php:28
+msgid "Facebook"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:32
+#: templates/mails/template-mail-register.php:28
+#: templates/mails/template-mail-reply.php:24
+#: templates/mails/template-mail-reset-password.php:28
+msgid "facebook"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:35
+#: templates/mails/template-mail-register.php:31
+#: templates/mails/template-mail-reply.php:27
+#: templates/mails/template-mail-reset-password.php:31
+msgid "Twitter"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:37
+#: templates/mails/template-mail-register.php:33
+#: templates/mails/template-mail-reply.php:29
+#: templates/mails/template-mail-reset-password.php:33
+msgid "twitter"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:40
+#: templates/mails/template-mail-register.php:36
+#: templates/mails/template-mail-reply.php:32
+#: templates/mails/template-mail-reset-password.php:36
+msgid "LinkIn"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:42
+#: templates/mails/template-mail-register.php:38
+#: templates/mails/template-mail-reply.php:34
+#: templates/mails/template-mail-reset-password.php:38
+msgid "linkein"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:45
+#: templates/mails/template-mail-register.php:41
+#: templates/mails/template-mail-reply.php:37
+#: templates/mails/template-mail-reset-password.php:41
+msgid "Youtube"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:47
+#: templates/mails/template-mail-register.php:43
+#: templates/mails/template-mail-reply.php:39
+#: templates/mails/template-mail-reset-password.php:43
+msgid "youtube"
+msgstr ""
+
+#: templates/mails/template-mail-rating.php:54
+#: templates/mails/template-mail-register.php:50
+#: templates/mails/template-mail-reply.php:46
+#: templates/mails/template-mail-reset-password.php:50
+#, php-format
+msgid ""
+"This mail is sent auto. Please do not reply to this email! If you do "
+"not want to receive our mail, please click %s"
+msgstr ""
+
+#: templates/mails/template-mail-register.php:13
+msgid "Please visit this link to verify your account."
+msgstr ""
+
+#: templates/mails/template-mail-reply.php:12
+msgid " just reply your ticket"
+msgstr ""
+
+#: templates/mails/template-mail-reset-password.php:13
+msgid "Please visit the link below to reset your password."
+msgstr ""
+
+#: templates/menu-category.php:4
+msgid "Categories"
+msgstr ""
+
+#: templates/paginator.php:32 templates/paginator.php:37
+msgid "Previous"
+msgstr ""
+
+#: templates/paginator.php:53
+msgid "Next"
+msgstr ""
+
+#: templates/reports/other-link.php:17
+msgid " other tickets."
+msgstr ""
+
+#: templates/reports/satisfied-link.php:17
+msgid "tickets satisfied."
+msgstr ""
+
+#: templates/reports/unsatisfied-link.php:18
+msgid "tickets unsatisfied."
+msgstr ""
+
+#: templates/reports/visited-link.php:17
+msgid "tickets has visited but not rating."
+msgstr ""
+
+#: templates/sts-footer.php:26
+msgid "Copyright &copy; G5Plus Inc. All Rights Reserved"
+msgstr ""
+
+#: templates/sts-header-login.php:22
+#, php-format
+msgid "Well come, %s!"
+msgstr ""
+
+#: templates/sts-header-login.php:22
+#, php-format
+msgid "Well come back, %s!"
+msgstr ""
+
+#: templates/sts-header-login.php:29 templates/sts-header.php:14
+msgid "Submit a ticket"
+msgstr ""
+
+#: templates/sts-header-login.php:54
+msgid "Notification"
+msgstr ""
+
+#: templates/sts-header-login.php:102
+msgid "My profile"
+msgstr ""
+
+#: templates/sts-header-login.php:104
+msgid "Sign out"
+msgstr ""
+
+#: templates/sts-header-login.php:107
+msgid "Go to admin"
+msgstr ""
+
+#: templates/sts-header.php:18
+msgid "Sign in"
+msgstr ""
+
+#: templates/supporters/supporter-details.php:3
+msgid "Supporter information"
+msgstr ""
+
+#: templates/supporters/supporter-details.php:12
+msgid "Email address:"
+msgstr ""
+
+#: templates/supporters/supporter-details.php:17
+msgid "Signature:"
+msgstr ""
+
+#: templates/supporters/supporter-ticket-item.php:28
+msgid "Updated"
+msgstr ""
+
+#: templates/template/lock-template.php:8
+msgid "Are your sure want to set private this template?"
+msgstr ""
+
+#: templates/template/lock-template.php:10
+msgid "Set private template"
+msgstr ""
+
+#: templates/template/template-item.php:37
+msgid "Are your sure want to delete this template?"
+msgstr ""
+
+#: templates/template/unlock-template.php:8
+msgid "Are your sure want to set public this template?"
+msgstr ""
+
+#: templates/template/unlock-template.php:10
+msgid "Set public template"
+msgstr ""
+
+#: templates/themes/form-control-theme.php:3
+msgid "Category*"
+msgstr ""
+
+#: templates/themes/form-control-theme.php:8
+msgid "Choose category*"
+msgstr ""
+
+#: templates/themes/label_filter_theme.php:2
+msgid "Category:"
+msgstr ""
+
+#: templates/themes/lock-theme.php:9
+msgid "Are your sure want to lock this theme?"
+msgstr ""
+
+#: templates/themes/status-valid.php:1
+msgid "Active"
+msgstr ""
+
+#: templates/themes/theme-item.php:5
+msgid "Theme name"
+msgstr ""
+
+#: templates/themes/theme-item.php:34
+msgid "Are your sure want to delete this theme?"
+msgstr ""
+
+#: templates/themes/unlock-theme.php:9
+msgid "Are your sure want to unlock this theme?"
+msgstr ""
+
+#: templates/ticket-details/mark-follow.php:9
+msgid "Follow"
+msgstr ""
+
+#: templates/ticket-details/mark-process.php:9
+msgid "Mark process"
+msgstr ""
+
+#: templates/ticket-details/message-action-button.php:11
+msgid "Are you sure delete this message?"
+msgstr ""
+
+#: templates/ticket-details/message-action.php:22
+msgid "Save message"
+msgstr ""
+
+#: templates/ticket-details/note-item.php:24
+msgid "Are you sue delete this note?"
+msgstr ""
+
+#: templates/ticket-details/relate-url.php:3
+msgid "Website url"
+msgstr ""
+
+#: templates/ticket-details/ticket-avatar.php:2
+msgid "avatar"
+msgstr ""
+
+#: templates/ticket-details/unmark-follow.php:10
+msgid "Unfollow"
+msgstr ""
+
+#: templates/ticket-details/unmark-process.php:10
+msgid "Unmark process"
+msgstr ""
+
+#: templates/ticket-details/view-more-button.php:11
+msgid "View more older reply"
+msgstr ""
+
+#: templates/tickets/supporter-marking-process.php:3
+#, php-format
+msgid "%s marking process"
+msgstr ""
+
+#: templates/tickets/ticket-item.php:37
+msgid "Latest request "
+msgstr ""
+
+#: templates/tickets/ticket-item.php:39
+msgid "Latest responded "
+msgstr ""
+
+#: templates/tickets/ticket-item.php:41
+msgid "Close at "
+msgstr ""
+
+#: templates/tickets/ticket-item.php:75
+msgid "Ticket expired"
+msgstr ""
+
+#: templates/users/user-banner.php:5
+msgid "Avatar image"
+msgstr ""

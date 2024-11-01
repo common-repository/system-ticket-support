@@ -1,0 +1,284 @@
+.report {
+	margin-bottom: 30px;
+
+	.sts-page-banner {
+		padding-top: 30px;
+		padding-bottom: 125px;
+	}
+
+	.sts-page-container {
+		margin-top: -95px !important;
+		padding-bottom: 95px !important;
+	}
+
+	&__filter-wrapper {
+		@include d-flex();
+		@include flex-wrap();
+		padding-top: 30px;
+		@include align-items-center();
+		border-bottom: 1px solid $border-color;
+
+		.form-control-group {
+			@include flex(1 1 18%);
+			max-width: 18%;
+			padding: 0 15px;
+			margin-bottom: 20px;
+
+			&.date {
+				@include flex(1 1 25%);
+				max-width: 25%;
+			}
+
+			.form-control-label {
+				left: 25px;
+			}
+
+			@media (max-width: 768px) {
+				@include flex(1 1 100%, important);
+				max-width: 100% !important;
+			}
+		}
+
+		.sts-block__filter-button {
+			@include flex(1 1 auto);
+			padding: 0 15px;
+			margin-bottom: 20px;
+			@media (max-width: 768px) {
+				@include flex(1 1 100%);
+				max-width: 100%;
+				text-align: right;
+			}
+		}
+	}
+
+	&__chart {
+		@include d-flex();
+		@include flex-wrap();
+		margin: 0 -15px;
+		padding: 20px;
+	}
+
+	&__chart-chart {
+		flex: 1 1 50%;
+		max-width: 50%;
+		padding: 0 15px;
+		@media (max-width: 768px) {
+			flex: 1 1 100%;
+			max-width: 100%;
+			margin-bottom: 30px;
+		}
+
+		svg {
+			max-width: 100%;
+		}
+
+	}
+
+	&__label {
+		flex: 1 1 50%;
+		max-width: 50%;
+		padding: 0 15px;
+		@media (max-width: 768px) {
+			flex: 1 1 100%;
+			max-width: 100%;
+		}
+	}
+
+	&__label-item {
+		padding: 0 15px;
+		@include d-flex();
+		@media (max-width: 452px) {
+			font-size: 12px;
+		}
+
+		a {
+			display: block;
+			margin-left: 25px;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+
+	}
+
+	&__legend {
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			border-radius: 20px;
+		}
+
+		&.satisfied::after {
+			background: rgba(54, 162, 235, 0.2);
+		}
+
+		&.unsatisfied::after {
+			background: rgba(255, 99, 132, 0.2);
+		}
+
+		&.visited::after {
+			background: #bf0000;
+		}
+
+		&.other::after {
+			background: #09d261;
+		}
+	}
+}
+
+.report-ticket {
+	margin-top: 30px;
+
+	.sts-block__container {
+		padding: 0;
+	}
+
+	.listing-ticket__item:first-child {
+		.ticket {
+			border-top: none;
+		}
+	}
+
+	.ticket__wrapper {
+		margin-left: -10px;
+		margin-right: 0;
+	}
+
+	.ticket__content-wrapper {
+		@include flex(1 1 auto);
+		max-width: 100%;
+		margin-left: -15px;
+		@include d-flex();
+		@include align-items-center();
+		position: relative;
+		@media (max-width: 768px) {
+			@include flex-wrap();
+		}
+	}
+
+	.ticket__content {
+		@include flex(1 1 50%);
+		max-width: 50%;
+		padding: 0 15px;
+		@media (max-width: 768px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+			margin-bottom: 10px;
+		}
+		@media (max-width: 440px) {
+			margin-top: 0;
+		}
+	}
+
+	.ticket__content-center {
+		@include d-flex();
+		margin: 0 -15px;
+
+	}
+
+	.ticket__subject {
+		padding: 0 15px;
+	}
+
+	.ticket__author-name {
+		@media (max-width: 768px) {
+			margin-top: 30px;
+		}
+	}
+
+	.ticket__rating-info {
+		@include flex(1 1 35%);
+		max-width: 35%;
+		padding: 0 15px;
+		@media (max-width: 768px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+		}
+	}
+
+	.ticket__rating {
+		margin-left: auto;
+		font-weight: 700;
+		position: absolute;
+		top: 45%;
+		right: 0;
+		transform: translateY(-45%);
+
+		@media (max-width: 768px) {
+			top: 10px;
+			left: 60px;
+		}
+
+		.ticket__rate {
+			color: white;
+			padding: 5px;
+			@media (max-width: 768px) {
+				font-size: 12px;
+			}
+		}
+
+		.ticket__rate--satisfied {
+			background: rgba(54, 162, 235, 0.5);
+		}
+
+		.ticket__rate--unsatisfied {
+			background: rgba(255, 99, 132, 0.5);
+		}
+	}
+}
+
+.supporter-report {
+	.sts-page-banner {
+		padding-top: 30px;
+		padding-bottom: 125px;
+	}
+
+	.sts-page-container {
+		margin-top: -95px !important;
+		padding-bottom: 95px !important;
+	}
+
+	&__filter-wrapper {
+		@include d-flex();
+		@include align-items-center();
+		@include flex-wrap();
+		padding-top: 30px;
+		border-bottom: 1px solid $border-color;
+	}
+
+	&__form-control {
+		@include flex(1 1 40%);
+		max-width: 40%;
+		padding: 0 15px;
+		margin-bottom: 20px;
+		@media (max-width: 768px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+		}
+
+		.form-control-group {
+			margin-bottom: 0;
+		}
+	}
+
+	&__filter-button {
+		@include flex(1 1 auto);
+		padding: 0 15px;
+		margin-bottom: 20px;
+		@media (max-width: 768px) {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+}
+
+.block-listing-message {
+	margin-top: 30px;
+}

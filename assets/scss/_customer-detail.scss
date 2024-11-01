@@ -1,0 +1,157 @@
+.customer-details {
+	.sts-user {
+		@include d-flex();
+		@include align-items-center();
+	}
+
+	.customer__action {
+		margin-left: auto;
+		@include d-flex();
+		margin-right: -5px;
+		opacity: 0;
+
+		a {
+			padding: 0 5px;
+			color: white;
+			@include transition(all 0.2s);
+			font-size: 16px;
+
+			&:hover {
+				color: $font-color;
+			}
+		}
+	}
+
+	.user-banner {
+		&:hover {
+			.customer__action {
+				opacity: 1;
+			}
+		}
+
+	}
+}
+
+.customer-ticket {
+	.listing-ticket__item:first-child {
+		.ticket {
+			border-top: none;
+		}
+	}
+
+	&__title {
+		font-size: 18px;
+		padding: 20px;
+	}
+}
+.controls {
+	position: relative;
+	@media (max-width: 400px) {
+		padding: 45px;
+	}
+}
+
+.carousel-indicators {
+	top: 0;
+	left: 0;
+	bottom: auto;
+	right: auto;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100%;
+
+	li {
+		text-indent: 0;
+		border: none;
+		background-color: transparent;
+		height: 100%;
+		width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		margin: 0;
+		overflow: hidden;
+		outline: none;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 10px;
+			height: 5px;
+			background: #e0e0e0;
+			opacity: 0;
+			border-radius: 100%;
+			transform: scale(1, 1) translate(-50%);
+			transform-origin: 50% 50%;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			background: #1a1a1a;
+			@include transition(all 0.5s);
+		}
+
+		&:first-child {
+			&::after {
+				right: -100%;
+			}
+
+			&.active::after {
+				right: 0;
+			}
+
+		}
+
+		&:last-child {
+			&::after {
+				left: -100%;
+			}
+
+			&.active::after {
+				left: 0;
+			}
+		}
+
+
+		a {
+			display: block;
+			text-transform: capitalize;
+			color: $font-color;
+			padding: 0 30px;
+
+
+			.dashicons {
+				margin-right: 10px;
+			}
+		}
+
+		&.ripple::before {
+			animation: ripple 0.5s ease-out;
+		}
+	}
+}
+
+@keyframes ripple {
+	0% {
+		@include transform(scale(0, 0));
+		opacity: 1;
+	}
+	20% {
+		@include transform(scale(25, 25));
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		@include transform(scale(40, 40));
+	}
+}

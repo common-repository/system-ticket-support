@@ -1,0 +1,289 @@
+.dashboard {
+	&__banner {
+		background: $primary;
+		padding: 80px 20px;
+	}
+
+	&__banner-title {
+		color: white;
+		font-size: 30px;
+	}
+
+	&__report {
+		@include d-flex();
+		@include flex-wrap();
+		margin: -15px;
+
+	}
+
+	&__report-item {
+		@include flex(1 1 auto);
+		padding: 15px;
+	}
+
+	&__report-item-wrapper {
+		border: 1px solid $border-color;
+		padding: 20px;
+		@include d-flex();
+		@include flex-flow-column();
+		height: 100%;
+		background: white;
+		border-radius: 4px;
+	}
+
+	&__report-header {
+		margin-bottom: 30px;
+	}
+
+	&__report-title {
+		color: $font-color;
+		font-weight: 600;
+	}
+
+	&__report-main {
+		@include d-flex();
+		@include flex-flow-column();
+		@include align-items-center();
+	}
+
+	&__report-number {
+		font-size: 72px;
+		line-height: 1;
+
+		&--all {
+			color: $primary;
+		}
+
+		&--request {
+			color: #bf0000;
+		}
+
+		&--responded {
+			color: #f44336;
+		}
+
+		&--close {
+			color: #09d261;
+		}
+	}
+
+	&__report-name {
+		font-size: 15px;
+		text-transform: uppercase;
+		color: $font-color-lighter;
+	}
+
+	&__time {
+		background: white;
+		padding: 30px 20px;
+		border-radius: 8px;
+		border: 1px solid $border-color;
+	}
+
+	&__time-header {
+		margin-bottom: 30px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	&__time-body {
+		@include d-flex();
+		@include flex-flow-column();
+		@include align-items-center();
+		color: $font-color-lighter;
+	}
+
+	&__time-month {
+		font-size: 30px;
+		line-height: 1;
+		color: $font-color-lighter;
+		margin-bottom: 10px;
+	}
+
+	&__time-day {
+		font-size: 72px;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	&__time-year {
+		font-size: 30px;
+		line-height: 1;
+		color: $font-color-lighter;
+		margin-bottom: 10px;
+	}
+
+	&__chart {
+		padding: 32px !important;
+
+		canvas {
+			max-height: 100%;
+			max-width: 263px;
+			@media (max-width: 576px) {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	&__chart-container {
+		padding: 20px;
+	}
+
+	#chartContainer {
+		overflow-y: auto;
+	}
+
+	.sts-warning {
+
+		margin-top: 20px;
+	}
+
+	.note {
+		margin-bottom: 20px;
+
+		.note__content {
+			margin-bottom: 0;
+		}
+
+		.note__message {
+			color: $font-color;
+			transition: all 0.2s;
+
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+
+	.sts-paginator {
+		background: white;
+		padding: 0;
+	}
+}
+
+.chart-legend {
+	ul {
+		list-style: none;
+		@include d-flex();
+		@include flex-wrap();
+		padding-left: 0;
+
+		li {
+			padding: 5px;
+			font-size: 13px;
+			@include flex(1 1 50%);
+			max-width: 50%;
+		}
+
+		span {
+			display: inline-block;
+			width: 13px;
+			height: 13px;
+			border-radius: 13px;
+			padding: 5px;
+			margin-right: 5px;
+		}
+	}
+}
+
+.dashboards-distribution {
+	margin-top: 30px;
+	@include d-flex();
+	@include flex-wrap();
+	margin-left: -15px;
+	margin-right: -15px;
+
+	.dashboards-distribution-item {
+		@include flex(1 1 50%);
+		max-width: 50%;
+		padding: 0 15px;
+		@include d-flex();
+		@include flex-column();
+		@media (max-width: 576px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.dashboards-distribution-item-wrapper {
+		height: 100%;
+	}
+
+	.dashboards-distribution-header {
+		@include d-flex();
+
+		.header-left {
+			margin-right: auto;
+		}
+
+		.header-right {
+			.dashboards-distribution-header-toggle {
+				color: $font-color;
+				@include d-flex();
+				@include align-items-center();
+				@include justify-content-center();
+
+				.dashicons {
+					font-size: 16px;
+				}
+			}
+
+			.dashboards-distribution-header-current {
+				margin-right: 8px;
+			}
+
+			.dropdown-menu {
+				padding: 0;
+			}
+
+			.dropdown-item {
+				position: relative;
+				overflow: hidden;
+				padding: 10px 20px;
+
+				&:active {
+					background: #f8f9fa;
+				}
+
+
+				&::before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					width: 5px;
+					height: 3px;
+					background: #e0e0e0;
+					opacity: 0;
+					border-radius: 100%;
+					transform: scale(1, 1) translate(-50%);
+					transform-origin: 50% 50%;
+				}
+
+				&:focus::before {
+					animation: ripple 0.5s ease-out;
+				}
+			}
+		}
+
+	}
+
+	.dashboards-distribution-content {
+		width: 100%;
+
+		.ticket {
+			border-top: none;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+
+		.ticket__subject {
+			margin-bottom: 0;
+			font-weight: 400;
+			font-size: 16px;
+		}
+	}
+}

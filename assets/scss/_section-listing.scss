@@ -1,0 +1,155 @@
+.sts-block {
+	@include box-shadow($box-shadow);
+	border-radius: 8px;
+	background: white;
+
+	&__title {
+		display: block;
+		padding: 20px;
+		background: #fff;
+		font-size: 14px;
+		margin-bottom: 0;
+		color: $font-color-lighter;
+		font-weight: 700;
+		border-radius: 8px 8px 0 0;
+		line-height: 1.2;
+		border-bottom: 1px solid $border-color;
+	}
+
+	&__container {
+		padding: 30px;
+		border-radius: 0 0 8px 8px;
+	}
+
+	&__link {
+		margin-bottom: 10px;
+		text-align: right;
+		@include d-flex();
+		@include flex-wrap();
+		@include justify-content-end();
+
+		.btn {
+			display: block;
+			margin-bottom: 10px;
+
+			&:not(:last-child) {
+				margin-right: 10px;
+			}
+		}
+	}
+
+	.table {
+		th, td {
+			text-align: left !important;
+		}
+
+		.additonal-info {
+			font-size: 13px;
+			color: $font-color-lighter;
+		}
+
+	}
+}
+
+.sts-paginator {
+	@include d-flex();
+	@include justify-content-end();
+	@include align-items-center();
+	@include flex-wrap();
+	background: $background-color;
+	padding: 20px;
+	border-radius: 0 0 8px 8px;
+
+	&__item {
+		padding: 0 15px;
+		color: $font-color-lighter;
+		font-size: 13px;
+
+		&:visited {
+			color: $font-color-lighter;
+		}
+
+		&.disable {
+			display: block !important;
+			pointer-events: none;
+			cursor: not-allowed;
+			color: #c9c9c9;
+		}
+	}
+
+	.active {
+		background: $primary;
+		color: white;
+		border-radius: 5px;
+	}
+}
+
+.sts-status {
+	.dashicons {
+		color: green;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	&-valid {
+		.dashicons {
+			color: green;
+		}
+	}
+
+	&-invalid {
+		.dashicons {
+			color: red;
+		}
+	}
+}
+
+.addition-info {
+	font-size: 13px;
+	color: $font-color-lighter;
+}
+
+.listing-themes {
+	.sts-page-banner {
+		@media (max-width: 650px) {
+			padding-top: 30px;
+			padding-bottom: 94px;
+			.sts-page-title {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.sts-page-banner-content {
+		@media (max-width: 650px) {
+			@include flex-wrap();
+		}
+	}
+
+	.banner-link {
+		@include d-flex();
+		@include justify-content-end();
+
+		@media (max-width: 650px) {
+			@include flex(1 1 100%);
+			max-width: 100%;
+			@include flex-wrap();
+			@include justify-content-center();
+			margin-left: 0;
+			.btn {
+				@include flex(1 1 100%);
+				max-width: 100%;
+			}
+		}
+
+		.btn:not(:last-child) {
+			margin-right: 10px;
+			@media (max-width: 650px) {
+				margin-right: 0;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

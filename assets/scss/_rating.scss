@@ -1,0 +1,57 @@
+.rate {
+	width: 100%;
+
+	input {
+		display: none;
+	}
+
+	label {
+		cursor: pointer;
+		padding: 7.5px 15px;
+		border: 1px solid #f56e28;
+		background: transparent;
+		border-radius: 5px;
+
+		.dashicons {
+			padding-right: 5px;
+		}
+	}
+
+	input:checked ~ label {
+		background: $primary;
+		color: white;
+		border-color: transparent;
+
+		.dashicons {
+			color: #fff;
+		}
+	}
+}
+
+.form-rating {
+	.form__item {
+		margin-bottom: 15px;
+	}
+
+	.form-group {
+		@include d-flex();
+		@include flex-wrap();
+		margin: 0 -5px;
+
+		&__item {
+			padding: 0 5px;
+		}
+	}
+
+	.form__label {
+		margin-bottom: 10px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.form-button-group {
+		@include justify-content-end();
+		margin: 0 -15px;
+	}
+}
+
